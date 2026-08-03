@@ -2,7 +2,7 @@
   "name": "soul-hues",
   "version": "1.0.0",
   "private": true,
-  "description": "Soul Hues \u2014 handcrafted jewellery, Instagram-first boutique showcase (frontend only, WhatsApp ordering).",
+  "description": "Soul Hues — handcrafted jewellery, Instagram-first boutique showcase (frontend only, WhatsApp ordering).",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -12,7 +12,7 @@
     "hash-password": "node scripts/hash-password.mjs"
   },
   "dependencies": {
-    "next": "15.1.6",
+    "next": "15.1.11",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "framer-motion": "^11.15.0",
