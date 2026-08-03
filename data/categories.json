@@ -1,0 +1,8 @@
+[
+  { "name": "Earrings", "slug": "Earrings", "image": "/images/category-earrings.svg", "description": "Studs, hoops & drops" },
+  { "name": "Necklaces", "slug": "Necklaces", "image": "/images/category-necklaces.svg", "description": "Pendants & layers" },
+  { "name": "Bracelets", "slug": "Bracelets", "image": "/images/category-bracelets.svg", "description": "Bangles & cuffs" },
+  { "name": "Rings", "slug": "Rings", "image": "/images/category-rings.svg", "description": "Bands & stacks" },
+  { "name": "Anklets", "slug": "Anklets", "image": "/images/category-anklets.svg", "description": "Chains & charms" },
+  { "name": "Hair Accessories", "slug": "Hair Accessories", "image": "/images/category-hair-accessories.svg", "description": "Pins & clips" }
+]

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1600">
+
+  <defs>
+    <linearGradient id="bgGrad1" x1="0%" y1="0%" x2="100%" y2="100%" gradientTransform="rotate(62 0.5 0.5)">
+      <stop offset="0%" stop-color="#F5F2EC"/>
+      <stop offset="100%" stop-color="#EFE7D6"/>
+    </linearGradient>
+    <radialGradient id="vign1" cx="50%" cy="40%" r="75%">
+      <stop offset="60%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.06"/>
+    </radialGradient>
+  </defs>
+  <rect width="1400" height="1600" fill="url(#bgGrad1)"/>
+  <rect width="1400" height="1600" fill="url(#vign1)"/>
+
+  <circle cx="700.0" cy="672.0" r="360" fill="#4F6B52" opacity="0.10"/>
+  <circle cx="700.0" cy="672.0" r="280" fill="#6F8F72" opacity="0.08"/>
+
+  <g stroke="#6F8F72" stroke-width="1.4" fill="none" opacity="0.85" stroke-linecap="round">
+    <path d="M48,104 V58 Q48,48 58,48 H104"/>
+    <path d="M1296,48 H1342 Q1352,48 1352,58 V104"/>
+    <path d="M48,1496 V1542 Q48,1552 58,1552 H104"/>
+    <path d="M1296,1552 H1342 Q1352,1552 1352,1542 V1496"/>
+  </g>
+
+
+  <path d="M590.0,600.0 L608.3,611.9 L626.7,623.0 L645.0,632.5 L663.3,639.8 L681.7,644.4 L700.0,646.0 L718.3,644.4 L736.7,639.8 L755.0,632.5 L773.3,623.0 L791.7,611.9 L810.0,600.0" fill="none" stroke="#4F6B52" stroke-width="2.5"/>
+  <path d="M686.0,652.0 L700.0,692.0 L714.0,652.0 Q700.0,668.0 686.0,652.0 Z" fill="#4F6B52" opacity="0.9"/>
+
+
+  <g transform="translate(1008.0,320.0) scale(1.6)" fill="#6F8F72" opacity="0.9">
+    <path d="M0,-16 C1,-5 5,-1 16,0 C5,1 1,5 0,16 C-1,5 -5,1 -16,0 C-5,-1 -1,-5 0,-16 Z"/>
+  </g>
+
+
+  <g transform="translate(336.0,1056.0) scale(1.1)" fill="#B8D6B4" opacity="0.9">
+    <path d="M0,-16 C1,-5 5,-1 16,0 C5,1 1,5 0,16 C-1,5 -5,1 -16,0 C-5,-1 -1,-5 0,-16 Z"/>
+  </g>
+
+  <g transform="translate(420.0,992.0)">
+  <g transform="translate(0,0)" stroke="#4F6B52" fill="none" stroke-width="3">
+    <circle r="44" />
+  </g>
+  <path d="M-9,-46 L0,-60 L9,-46 Z" fill="#4F6B52" opacity="0.9"/>
+</g>
+  <g transform="translate(952.0000000000001,1056.0)">
+  <g transform="translate(0,0)" stroke="#6F8F72" fill="none" stroke-width="3">
+    <circle r="30" />
+  </g>
+  <path d="M-9,-32 L0,-46 L9,-32 Z" fill="#6F8F72" opacity="0.9"/>
+</g>
+</svg>

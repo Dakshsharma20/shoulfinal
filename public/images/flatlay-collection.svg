@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1400">
+
+  <defs>
+    <linearGradient id="bgGrad9" x1="0%" y1="0%" x2="100%" y2="100%" gradientTransform="rotate(108 0.5 0.5)">
+      <stop offset="0%" stop-color="#FAF8F3"/>
+      <stop offset="100%" stop-color="#F5F2EC"/>
+    </linearGradient>
+    <radialGradient id="vign9" cx="50%" cy="40%" r="75%">
+      <stop offset="60%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.06"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="1400" fill="url(#bgGrad9)"/>
+  <rect width="1200" height="1400" fill="url(#vign9)"/>
+
+
+  <g stroke="#6F8F72" stroke-width="1.4" fill="none" opacity="0.85" stroke-linecap="round">
+    <path d="M40,86 V50 Q40,40 50,40 H86"/>
+    <path d="M1114,40 H1150 Q1160,40 1160,50 V86"/>
+    <path d="M40,1314 V1350 Q40,1360 50,1360 H86"/>
+    <path d="M1114,1360 H1150 Q1160,1360 1160,1350 V1314"/>
+  </g>
+
+
+  <g transform="translate(600.0,168.0) scale(1.4)" fill="#6F8F72" opacity="0.9">
+    <path d="M0,-16 C1,-5 5,-1 16,0 C5,1 1,5 0,16 C-1,5 -5,1 -16,0 C-5,-1 -1,-5 0,-16 Z"/>
+  </g>
+
+<g transform="scale(1.15) translate(50.400000000000006,63.0)">
+  <g transform="translate(336.00000000000006,420.0)" stroke="#4F6B52" fill="none" stroke-width="3">
+    <circle r="46" />
+  </g>
+  <path d="M327.00000000000006,372.0 L336.00000000000006,358.0 L345.00000000000006,372.0 Z" fill="#4F6B52" opacity="0.9"/>
+</g><g transform="scale(1.15) translate(122.4,50.4)"><circle cx="782.0000000000001" cy="290.0" r="5" fill="#6F8F72"/>
+<line x1="782.0000000000001" y1="295.0" x2="782.0000000000001" y2="330.0" stroke="#6F8F72" stroke-width="2.5"/>
+<path d="M766.0000000000001,330.0 Q782.0000000000001,376.0 798.0000000000001,330.0 Q782.0000000000001,354.0 766.0000000000001,330.0 Z" fill="none" stroke="#6F8F72" stroke-width="3"/>
+<circle cx="850.0000000000001" cy="290.0" r="5" fill="#6F8F72"/>
+<line x1="850.0000000000001" y1="295.0" x2="850.0000000000001" y2="330.0" stroke="#6F8F72" stroke-width="2.5"/>
+<path d="M834.0000000000001,330.0 Q850.0000000000001,376.0 866.0000000000001,330.0 Q850.0000000000001,354.0 834.0000000000001,330.0 Z" fill="none" stroke="#6F8F72" stroke-width="3"/></g><g transform="scale(1.15) translate(90.0,126.0)">
+  <path d="M490.0,800.0 L508.3,811.9 L526.7,823.0 L545.0,832.5 L563.3,839.8 L581.7,844.4 L600.0,846.0 L618.3,844.4 L636.7,839.8 L655.0,832.5 L673.3,823.0 L691.7,811.9 L710.0,800.0" fill="none" stroke="#4F6B52" stroke-width="2.5"/>
+  <path d="M586.0,852.0 L600.0,892.0 L614.0,852.0 Q600.0,868.0 586.0,852.0 Z" fill="#4F6B52" opacity="0.9"/>
+</g><g transform="scale(1.15) translate(43.199999999999996,151.2)"><ellipse cx="288.0" cy="1008.0" rx="86" ry="30" fill="none" stroke="#6F8F72" stroke-width="3"/>
+<circle cx="236.0" cy="1018.0" r="3" fill="#6F8F72" opacity="0.7"/>
+<circle cx="262.0" cy="1014.0" r="3" fill="#6F8F72" opacity="0.7"/>
+<circle cx="288.0" cy="1010.0" r="3" fill="#6F8F72" opacity="0.7"/>
+<circle cx="314.0" cy="1014.0" r="3" fill="#6F8F72" opacity="0.7"/>
+<circle cx="340.0" cy="1018.0" r="3" fill="#6F8F72" opacity="0.7"/></g><g transform="scale(1.15) translate(135.0,157.5)">
+  <path d="M860.0,1050.0 Q890.0,1016.0 900.0,1050.0 Q910.0,1016.0 940.0,1050.0 Q910.0,1044.0 900.0,1034.0 Q890.0,1044.0 860.0,1050.0 Z" fill="none" stroke="#4F6B52" stroke-width="2.5"/>
+  <circle cx="900.0" cy="1036.0" r="6" fill="#4F6B52"/>
+</g>
+</svg>

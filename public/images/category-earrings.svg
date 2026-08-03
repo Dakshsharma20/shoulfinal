@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700">
+
+  <defs>
+    <linearGradient id="bgGrad1" x1="0%" y1="0%" x2="100%" y2="100%" gradientTransform="rotate(62 0.5 0.5)">
+      <stop offset="0%" stop-color="#F5F2EC"/>
+      <stop offset="100%" stop-color="#EFE7D6"/>
+    </linearGradient>
+    <radialGradient id="vign1" cx="50%" cy="40%" r="75%">
+      <stop offset="60%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.06"/>
+    </radialGradient>
+  </defs>
+  <rect width="700" height="700" fill="url(#bgGrad1)"/>
+  <rect width="700" height="700" fill="url(#vign1)"/>
+
+
+  <g stroke="#6F8F72" stroke-width="1.4" fill="none" opacity="0.85" stroke-linecap="round">
+    <path d="M26,54 V36 Q26,26 36,26 H54"/>
+    <path d="M646,26 H664 Q674,26 674,36 V54"/>
+    <path d="M26,646 V664 Q26,674 36,674 H54"/>
+    <path d="M646,674 H664 Q674,674 674,664 V646"/>
+  </g>
+
+
+  <g transform="translate(350.0,96) scale(0.85)" fill="#6F8F72" opacity="0.9">
+    <path d="M0,-16 C1,-5 5,-1 16,0 C5,1 1,5 0,16 C-1,5 -5,1 -16,0 C-5,-1 -1,-5 0,-16 Z"/>
+  </g>
+
+<circle cx="316.0" cy="314.0" r="5" fill="#4F6B52"/>
+<line x1="316.0" y1="319.0" x2="316.0" y2="354.0" stroke="#4F6B52" stroke-width="2.5"/>
+<path d="M300.0,354.0 Q316.0,400.0 332.0,354.0 Q316.0,378.0 300.0,354.0 Z" fill="none" stroke="#4F6B52" stroke-width="3"/>
+<circle cx="384.0" cy="314.0" r="5" fill="#4F6B52"/>
+<line x1="384.0" y1="319.0" x2="384.0" y2="354.0" stroke="#4F6B52" stroke-width="2.5"/>
+<path d="M368.0,354.0 Q384.0,400.0 400.0,354.0 Q384.0,378.0 368.0,354.0 Z" fill="none" stroke="#4F6B52" stroke-width="3"/>
+  <text x="350.0" y="642" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#2E3B2F" letter-spacing="1">Earrings</text>
+</svg>

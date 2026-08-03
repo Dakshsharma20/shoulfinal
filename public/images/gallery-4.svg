@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700">
+
+  <defs>
+    <linearGradient id="bgGrad3" x1="0%" y1="0%" x2="100%" y2="100%" gradientTransform="rotate(96 0.5 0.5)">
+      <stop offset="0%" stop-color="#FAF8F3"/>
+      <stop offset="100%" stop-color="#F5F2EC"/>
+    </linearGradient>
+    <radialGradient id="vign3" cx="50%" cy="40%" r="75%">
+      <stop offset="60%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.06"/>
+    </radialGradient>
+  </defs>
+  <rect width="700" height="700" fill="url(#bgGrad3)"/>
+  <rect width="700" height="700" fill="url(#vign3)"/>
+
+<ellipse cx="350.0" cy="350.0" rx="86" ry="30" fill="none" stroke="#4F6B52" stroke-width="3"/>
+<circle cx="298.0" cy="360.0" r="3" fill="#4F6B52" opacity="0.7"/>
+<circle cx="324.0" cy="356.0" r="3" fill="#4F6B52" opacity="0.7"/>
+<circle cx="350.0" cy="352.0" r="3" fill="#4F6B52" opacity="0.7"/>
+<circle cx="376.0" cy="356.0" r="3" fill="#4F6B52" opacity="0.7"/>
+<circle cx="402.0" cy="360.0" r="3" fill="#4F6B52" opacity="0.7"/>
+
+  <g transform="translate(574.0,126.0) scale(0.7)" fill="#6F8F72" opacity="0.9">
+    <path d="M0,-16 C1,-5 5,-1 16,0 C5,1 1,5 0,16 C-1,5 -5,1 -16,0 C-5,-1 -1,-5 0,-16 Z"/>
+  </g>
+
+</svg>

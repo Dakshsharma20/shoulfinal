@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1280">
+
+  <defs>
+    <linearGradient id="bgGrad0" x1="0%" y1="0%" x2="100%" y2="100%" gradientTransform="rotate(45 0.5 0.5)">
+      <stop offset="0%" stop-color="#FAF8F3"/>
+      <stop offset="100%" stop-color="#F5F2EC"/>
+    </linearGradient>
+    <radialGradient id="vign0" cx="50%" cy="40%" r="75%">
+      <stop offset="60%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.06"/>
+    </radialGradient>
+  </defs>
+  <rect width="720" height="1280" fill="url(#bgGrad0)"/>
+  <rect width="720" height="1280" fill="url(#vign0)"/>
+
+
+  <g stroke="#6F8F72" stroke-width="1.4" fill="none" opacity="0.85" stroke-linecap="round">
+    <path d="M30,64 V40 Q30,30 40,30 H64"/>
+    <path d="M656,30 H680 Q690,30 690,40 V64"/>
+    <path d="M30,1216 V1240 Q30,1250 40,1250 H64"/>
+    <path d="M656,1250 H680 Q690,1250 690,1240 V1216"/>
+  </g>
+
+
+  <g transform="translate(360.0,179.20000000000002) scale(1.0)" fill="#6F8F72" opacity="0.9">
+    <path d="M0,-16 C1,-5 5,-1 16,0 C5,1 1,5 0,16 C-1,5 -5,1 -16,0 C-5,-1 -1,-5 0,-16 Z"/>
+  </g>
+
+<circle cx="326.0" cy="542.8000000000001" r="5" fill="#4F6B52"/>
+<line x1="326.0" y1="547.8000000000001" x2="326.0" y2="582.8000000000001" stroke="#4F6B52" stroke-width="2.5"/>
+<path d="M310.0,582.8000000000001 Q326.0,628.8000000000001 342.0,582.8000000000001 Q326.0,606.8000000000001 310.0,582.8000000000001 Z" fill="none" stroke="#4F6B52" stroke-width="3"/>
+<circle cx="394.0" cy="542.8000000000001" r="5" fill="#4F6B52"/>
+<line x1="394.0" y1="547.8000000000001" x2="394.0" y2="582.8000000000001" stroke="#4F6B52" stroke-width="2.5"/>
+<path d="M378.0,582.8000000000001 Q394.0,628.8000000000001 410.0,582.8000000000001 Q394.0,606.8000000000001 378.0,582.8000000000001 Z" fill="none" stroke="#4F6B52" stroke-width="3"/>
+</svg>

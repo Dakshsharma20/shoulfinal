@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1280">
+
+  <defs>
+    <linearGradient id="bgGrad1" x1="0%" y1="0%" x2="100%" y2="100%" gradientTransform="rotate(62 0.5 0.5)">
+      <stop offset="0%" stop-color="#F5F2EC"/>
+      <stop offset="100%" stop-color="#EFE7D6"/>
+    </linearGradient>
+    <radialGradient id="vign1" cx="50%" cy="40%" r="75%">
+      <stop offset="60%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.06"/>
+    </radialGradient>
+  </defs>
+  <rect width="720" height="1280" fill="url(#bgGrad1)"/>
+  <rect width="720" height="1280" fill="url(#vign1)"/>
+
+
+  <g stroke="#6F8F72" stroke-width="1.4" fill="none" opacity="0.85" stroke-linecap="round">
+    <path d="M30,64 V40 Q30,30 40,30 H64"/>
+    <path d="M656,30 H680 Q690,30 690,40 V64"/>
+    <path d="M30,1216 V1240 Q30,1250 40,1250 H64"/>
+    <path d="M656,1250 H680 Q690,1250 690,1240 V1216"/>
+  </g>
+
+
+  <g transform="translate(360.0,179.20000000000002) scale(1.0)" fill="#6F8F72" opacity="0.9">
+    <path d="M0,-16 C1,-5 5,-1 16,0 C5,1 1,5 0,16 C-1,5 -5,1 -16,0 C-5,-1 -1,-5 0,-16 Z"/>
+  </g>
+
+
+  <path d="M250.0,548.8 L268.3,560.7 L286.7,571.8 L305.0,581.3 L323.3,588.6 L341.7,593.2 L360.0,594.8 L378.3,593.2 L396.7,588.6 L415.0,581.3 L433.3,571.8 L451.7,560.7 L470.0,548.8" fill="none" stroke="#6F8F72" stroke-width="2.5"/>
+  <path d="M346.0,600.8000000000001 L360.0,640.8000000000001 L374.0,600.8000000000001 Q360.0,616.8000000000001 346.0,600.8000000000001 Z" fill="#6F8F72" opacity="0.9"/>
+
+</svg>

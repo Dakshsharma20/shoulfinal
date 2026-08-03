@@ -1,0 +1,22 @@
+[
+  {
+    "question": "How do I place an order?",
+    "answer": "Tap any \"Order on WhatsApp\" button across the site. It opens a WhatsApp chat with your selected piece already filled in \u2014 just hit send and Shivani will confirm availability, pricing, and next steps with you directly."
+  },
+  {
+    "question": "Is customisation available?",
+    "answer": "Yes. Many pieces can be adjusted in length, colour, or finish, and we also take limited custom orders for occasions like weddings and gifting. Mention what you have in mind when you message us on WhatsApp."
+  },
+  {
+    "question": "How long does delivery take?",
+    "answer": "Ready-to-ship pieces typically leave within 2\u20133 working days. Custom or made-to-order pieces take 5\u20137 working days depending on the design. You'll get shipping updates over WhatsApp."
+  },
+  {
+    "question": "What payment options are available?",
+    "answer": "We currently confirm orders and share payment details (UPI / bank transfer) directly over WhatsApp once your order and delivery address are confirmed."
+  },
+  {
+    "question": "What is your return policy?",
+    "answer": "Since every piece is handmade to order, we accept returns only in the case of damage or a manufacturing defect. Reach out within 48 hours of delivery with photos and we'll make it right."
+  }
+]

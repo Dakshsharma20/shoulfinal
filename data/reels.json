@@ -1,0 +1,26 @@
+[
+  {
+    "id": "r1",
+    "title": "Behind the Bench",
+    "caption": "A peek at how a piece comes together, start to finish.",
+    "thumbnail": "/images/reel-1.svg"
+  },
+  {
+    "id": "r2",
+    "title": "Studio Diaries",
+    "caption": "A day in the Soul Hues studio with Shivani.",
+    "thumbnail": "/images/reel-2.svg"
+  },
+  {
+    "id": "r3",
+    "title": "Styling Guide",
+    "caption": "Three ways to wear our stacking rings.",
+    "thumbnail": "/images/reel-3.svg"
+  },
+  {
+    "id": "r4",
+    "title": "New Drop Unboxing",
+    "caption": "Unboxing the newest bracelet collection.",
+    "thumbnail": "/images/reel-4.svg"
+  }
+]

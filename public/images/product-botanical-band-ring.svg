@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+
+  <defs>
+    <linearGradient id="bgGrad9" x1="0%" y1="0%" x2="100%" y2="100%" gradientTransform="rotate(108 0.5 0.5)">
+      <stop offset="0%" stop-color="#F5F2EC"/>
+      <stop offset="100%" stop-color="#EFE7D6"/>
+    </linearGradient>
+    <radialGradient id="vign9" cx="50%" cy="40%" r="75%">
+      <stop offset="60%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.06"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bgGrad9)"/>
+  <rect width="800" height="800" fill="url(#vign9)"/>
+
+
+  <g stroke="#6F8F72" stroke-width="1.4" fill="none" opacity="0.85" stroke-linecap="round">
+    <path d="M26,54 V36 Q26,26 36,26 H54"/>
+    <path d="M746,26 H764 Q774,26 774,36 V54"/>
+    <path d="M26,746 V764 Q26,774 36,774 H54"/>
+    <path d="M746,774 H764 Q774,774 774,764 V746"/>
+  </g>
+
+
+  <g transform="translate(400.0,96) scale(0.85)" fill="#6F8F72" opacity="0.9">
+    <path d="M0,-16 C1,-5 5,-1 16,0 C5,1 1,5 0,16 C-1,5 -5,1 -16,0 C-5,-1 -1,-5 0,-16 Z"/>
+  </g>
+
+
+  <g transform="translate(400.0,410.0)" stroke="#4F6B52" fill="none" stroke-width="3">
+    <circle r="46" />
+  </g>
+  <path d="M391.0,362.0 L400.0,348.0 L409.0,362.0 Z" fill="#4F6B52" opacity="0.9"/>
+
+  <text x="400.0" y="742" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#2E3B2F" letter-spacing="1">Botanical Band Ring</text>
+</svg>
