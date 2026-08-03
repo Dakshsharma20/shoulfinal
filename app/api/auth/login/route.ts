@@ -24,6 +24,12 @@ export async function POST(req: NextRequest) {
   const adminEmail = process.env.ADMIN_EMAIL;
   const adminPasswordHash = process.env.ADMIN_PASSWORD_HASH;
 
+  console.log("===== VERCEL DEBUG =====");
+console.log("ADMIN_EMAIL:", process.env.ADMIN_EMAIL);
+console.log("ADMIN_PASSWORD_HASH exists:", !!process.env.ADMIN_PASSWORD_HASH);
+console.log("JWT_SECRET exists:", !!process.env.JWT_SECRET);
+console.log("========================");
+
   if (!adminEmail || !adminPasswordHash) {
     console.error("ADMIN_EMAIL / ADMIN_PASSWORD_HASH are not configured in .env.local");
     return NextResponse.json(
