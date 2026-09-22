@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { revalidatePath } from "next/cache";
 import { requireAdmin } from "@/lib/auth/requireAdmin";
 import { getOrCreateSettings } from "@/lib/data/getOrCreateSettings";
 import { settingsSchema } from "@/lib/validations/schemas";
@@ -39,6 +40,9 @@ export async function PUT(req: NextRequest) {
     const current = await getOrCreateSettings();
     Object.assign(current, parsed.data);
     await current.save();
+
+    // The storefront reads settings in the server-side site layout.\n    // Revalidate the storefront after admin changes so a new hero banner\n    // (or logo/footer/social settings) is reflected immediately.\n    revalidatePath("/", "layout");
+
     return NextResponse.json({ success: true, settings: current });
   } catch (err) {
     console.error("PUT /api/admin/settings failed:", err);
