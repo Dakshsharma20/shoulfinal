@@ -41,7 +41,9 @@ export async function PUT(req: NextRequest) {
     Object.assign(current, parsed.data);
     await current.save();
 
-    // The storefront reads settings in the server-side site layout.\n    // Revalidate the storefront after admin changes so a new hero banner\n    // (or logo/footer/social settings) is reflected immediately.\n    revalidatePath("/", "layout");
+    // The storefront reads settings in the server-side site layout.
+    // Revalidate the storefront after admin changes so a new hero banner
+    // (or logo/footer/social settings) is reflected immediately.\n    revalidatePath("/", "layout");
 
     return NextResponse.json({ success: true, settings: current });
   } catch (err) {
