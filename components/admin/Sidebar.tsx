@@ -9,6 +9,7 @@ import {
   Package,
   FolderTree,
   ShoppingBag,
+  Users,
   Settings as SettingsIcon,
   LogOut,
   Menu,
@@ -21,6 +22,7 @@ const LINKS = [
   { href: "/admin/dashboard", label: "Dashboard", icon: LayoutDashboard },
   { href: "/admin/products", label: "Products", icon: Package },
   { href: "/admin/orders", label: "Orders", icon: ShoppingBag },
+  { href: "/admin/users", label: "User Management", icon: Users },
   { href: "/admin/categories", label: "Categories", icon: FolderTree },
   { href: "/admin/settings", label: "Settings", icon: SettingsIcon },
 ];
