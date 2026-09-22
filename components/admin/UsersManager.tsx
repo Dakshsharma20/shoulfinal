@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useState, type FormEvent } from "react";
 import { Search, Users, ShoppingBag, IndianRupee, ChevronLeft, ChevronRight } from "lucide-react";
 import { formatPrice } from "@/lib/utils";
 
@@ -47,7 +47,7 @@ export default function UsersManager() {
     void loadCustomers();
   }, [loadCustomers]);
 
-  function submitSearch(e: React.FormEvent) {
+  function submitSearch(e: FormEvent) {
     e.preventDefault();
     setPage(1);
     setSearch(query.trim());
