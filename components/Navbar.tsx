@@ -64,17 +64,26 @@ export default function Navbar() {
           <span
             className={cn(
               "relative block flex-shrink-0 transition-all duration-500 ease-out",
-              scrolled ? "h-11 w-32 md:h-12 md:w-36" : "h-14 w-36 md:h-16 md:w-44"
+              scrolled ? "h-11 w-11 md:h-12 md:w-12" : "h-14 w-14 md:h-16 md:w-16"
             )}
           >
             <Image
-              src={settings.logo?.url || "/images/logo-soulhues.png"}
-              alt={settings.storeName}
+              src="/images/logo-soulhues.png"
+              alt=""
               fill
               priority
-              sizes="176px"
-              className="object-contain object-left transition-transform duration-500 ease-out group-hover:scale-[1.02]"
+              sizes="64px"
+              className="object-contain transition-transform duration-500 ease-out group-hover:scale-105"
             />
+          </span>
+          <span
+            aria-hidden="true"
+            className={cn(
+              "hidden font-script leading-none text-sage-dark transition-all duration-500 ease-out sm:block",
+              scrolled ? "text-xl" : "text-2xl md:text-3xl"
+            )}
+          >
+            by Shivani
           </span>
         </Link>
 
