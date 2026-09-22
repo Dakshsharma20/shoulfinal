@@ -25,18 +25,7 @@ export async function GET(req: NextRequest) {
     const page = Math.max(1, Number(searchParams.get("page") ?? "1") || 1);
     const limit = Math.min(50, Math.max(1, Number(searchParams.get("limit") ?? "20") || 20));
 
-    const match = q
-      ? {
-          $or: [
-            { "shippingAddress.fullName": { $regex: q, $options: "i" } },
-            { "shippingAddress.email": { $regex: q, $options: "i" } },
-            { "shippingAddress.phone": { $regex: q, $options: "i" } },
-          ],
-        }
-      : {};
-
     const rows = await Order.aggregate([
-      { $match: match },
       {
         $project: {
           name: "$shippingAddress.fullName",
@@ -63,6 +52,17 @@ export async function GET(req: NextRequest) {
           lastOrderAt: { $max: "$createdAt" },
         },
       },
+      ...(q
+        ? [{
+            $match: {
+              $or: [
+                { name: { $regex: q, $options: "i" } },
+                { email: { $regex: q, $options: "i" } },
+                { phone: { $regex: q, $options: "i" } },
+              ],
+            },
+          }]
+        : []),
       { $sort: { lastOrderAt: -1 } },
     ]);
 
