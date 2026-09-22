@@ -19,7 +19,7 @@ export default function SettingsForm() {
     control,
     reset,
     watch,
-    formState: { errors },
+    formState: { errors, dirtyFields },
   } = useForm<SettingsInput>({
     resolver: zodResolver(settingsSchema),
   });
@@ -39,10 +39,17 @@ export default function SettingsForm() {
     setSaved(false);
     setSubmitting(true);
     try {
+      // Keep image settings isolated. A Hero Banner change must never
+      // overwrite the Logo (and vice versa), even if another form field
+      // contains a stale value.
+      const payload: Partial<SettingsInput> = { ...data };
+      if (!dirtyFields.logo) delete payload.logo;
+      if (!dirtyFields.heroBanner) delete payload.heroBanner;
+
       const res = await fetch("/api/admin/settings", {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data),
+        body: JSON.stringify(payload),
       });
       const json = await res.json();
       if (!res.ok || !json.success) {
